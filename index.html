@@ -5,59 +5,44 @@ notitle: true
 
 # groups of columns of {roles: list, width: num, image: bool}
 role-tables:
-- - roles: [faculty, postdoc, staff]
+- - roles: [director]
     width: 4
     image: true
-  - roles: [grad]
+  - roles: [faculty, affiliates]
     width: 8
     image: true
-- - roles: [collab, ugrad, ugrad-alum]
-    width: 5
-    image: false
-  - roles: [alum]
-    width: 7
-    image: false
+- - roles: [phd]
+    width: 12
+    image: true
+- - roles: [ms]
+    width: 12
+    image: true
 
 ---
 
 <div class="jumbotron">
     <p>
-        The <b>Awesome Research Group</b> at <b>Example U</b> does all sorts of
-        research. Here is a place where we tell you exactly what that is!
+      The Data Fusion Lab was a multi-disciplinary group of researchers studying a wide range of topics in engineering, including:
+    </p>
+      <ul>
+      <li>System theory and its applications,</li>
+      <li>Distributed detection,</li>
+      <li>Data and decision fusion,</li>
+      <li>Navigation and robotics,</li>
+      <li>Wireless communications,</li>
+      <li>Digital signal processing,</li>
+      <li>Dynamics and controls of biological systems,</li>
+      <li>Bio-Informatics,</li>
+      <li>Handwriting forensics, and</li>
+      <li>Machine learning.</li>
+      </ul>
+    <p>
+    The lab was established in 1989 at Drexel University and has graduated 23 students with a Ph.D., 27 with an M.S., and 18 with B.S./M.S. degrees.
+    </p>
+    <p>
+    The lab's research has been sponsored by organizations including U.S. Army CERDEC, U.S. Office of Naval Research, U.S. Army Research Laboratory, Lockheed Martin, DARPA, FAA, and Janssen.
     </p>
 </div>
-
-<section>
-    <h2>News</h2>
-    <ul class="news list-unstyled">
-        {% for post in site.posts limit: site.front_page_news %}
-            {% include news-item.html item=post %}
-        {% endfor %}
-    </ul>
-    {% assign numposts = site.posts | size %}
-    {% if numposts >= 1 %}
-        <p>
-            <span class="fa fa-fw fa-history"></span>
-            <a href="{{ site.base }}/blog.html">Older posts&hellip;</a>
-        </p>
-    {% endif %}
-</section>
-
-<section>
-    <h2>Research</h2>
-    <div class="card-columns">
-        {% comment %}
-        Sort the projects by date, putting those without dates last
-        {% endcomment %}
-        {% assign projects_by_date = site.projects | sort: 'last-updated', 'first' %}
-        {% assign projects_by_date = projects_by_date | reverse %}
-        {% for p in projects_by_date %}
-            {% if p.status != "inactive" %}
-                {% include project-card.html project=p %}
-            {% endif %}
-        {% endfor %}
-    </div>
-</section>
 
 <div id="people">
     <h2>People</h2>
