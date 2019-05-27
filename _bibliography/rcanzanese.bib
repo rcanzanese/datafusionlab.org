@@ -1,0 +1,88 @@
+@inproceedings {Canzanese_MALWARE_2015,
+author={Raymond Canzanese and Spiros Mancoridis and Moshe Kam},
+booktitle={2015 10th International Conference on Malicious and Unwanted Software (MALWARE)},
+title={Run-time classification of malicious processes using system call analysis},
+year={2015},
+volume={},
+number={},
+pages={21-28},
+abstract={This study presents a malware classification system designed to classify malicious processes at run-time on production hosts. The system monitors process-level system call activity and uses information extracted from system call traces as inputs to the classifier. The system is advantageous because it does not require the use of specialized analysis environments. Instead, a `lightweight' service application monitors process execution and classifies new malware samples based on their behavioral similarity to known malware. This study compares the effectiveness of multiple feature sets, ground truth labeling schemes, and machine learning algorithms for malware classification. The accuracy of the classification system is evaluated against processlevel system call traces of recently discovered malware samples collected from production environments. Experimental results indicate that accurate classification results can be achieved using relatively short system call traces and simple representations.},
+keywords={invasive software;learning (artificial intelligence);pattern classification;system monitoring;run-time classification;malicious process;system call analysis;malware classification system;process-level system;process execution;ground truth labeling scheme;machine learning algorithm;Malware;Feature extraction;Decision trees;Training;Vegetation;Heuristic algorithms;Algorithm design and analysis},
+doi={10.1109/MALWARE.2015.7413681},
+ISSN={},
+month={Oct},}
+
+@InProceedings{Canzanese_QRS_2015,
+author={Canzanese, Raymond and Mancoridis, Spiros and Kam, Moshe},
+booktitle={International conference on quality, reliability, and security},
+series={QRS},
+publisher={IEEE},
+title={System Call-based Detection of Malicious Processes},
+year={2015},
+month={August},
+abstract={System call analysis is a behavioral malware detection technique that is popular due to its promising detection results and ease of implementation. This study describes a system that uses system call analysis to detect malware that evade traditional defenses. The system monitors executing processes to identify compromised hosts in production environments. Experimental results compare the effectiveness of multiple feature extraction strategies and detectors based on their detection accuracy at low false positive rates. Logistic regression and support vector machines consistently outperform log-likelihood ratio and signature detectors as processing and detection methods. A feature selection study indicates that a relatively small set of system call 3-grams provide detection accuracy comparable to that of more complex models. A case study indicates that the detection system performs well against a variety of malware samples, benign workloads, and host configurations.}
+}
+
+
+@inproceedings {Canzanese_SERE_2013,
+author={Canzanese, Raymond and Kam, Moshe and Mancoridis, Spiros},
+booktitle={International Conference on Software Security and Reliability},
+series={SERE},
+publisher={IEEE},
+title={Multi-channel Change-Point Malware Detection},
+year={2013},
+month={June},
+abstract={The complex computing systems employed by governments, corporations, and other institutions are frequently targeted by cyber-attacks designed for espionage and sabotage. The malicious software used in such attacks are typically custom-designed or obfuscated to avoid detection by traditional antivirus software. Our goal is to create a malware detection system that can quickly and accurately detect such otherwise difficult-to-detect malware. We pose the problem of malware detection as a multi-channel change-point detection problem, wherein the goal is to identify the point in time when a system changes from a known clean state to an infected state. We present a host-based malware detection system designed to run at the hypervisor level, monitoring hypervisor and guest operating system sensors and sequentially determining whether the host is infected. We present a case study wherein the detection system is used to detect various types of malware on an active web server under heavy computational load.},
+keywords={Internet;computational complexity;computer viruses;file servers;operating systems (computers);active Web server;antivirus software;complex computing systems;cyber-attacks;difficult-to-detect malware;espionage;guest operating system sensors;host-based malware detection system;hypervisor level;malicious software;monitoring hypervisor;multichannel change-point malware detection system;sabotage;Detectors;Feature extraction;Malware;Sensor phenomena and characterization;Software;Virtual machine monitors;behavioral detection;change detection;change-point detection;malware;multi-channel;quickest detection},
+doi={10.1109/SERE.2013.20}
+}
+
+@inproceedings {Canzanese_SASO_2013,
+author={Canzanese, Raymond and Moshe Kam and Mancoridis, Spiros},
+booktitle={International Conference on Self-Adaptive and Self-Organizing Systems},
+series = {SASO},
+publisher = {IEEE},
+title={Toward an Automatic, Online Behavioral Malware Classification System},
+year={2013},
+month={Sept},
+abstract={Malware authors are increasingly using specialized toolkits and obfuscation techniques to modify existing malware and avoid detection by traditional antivirus software. The resulting proliferation of obfuscated malware variants poses a challenge to antivirus vendors, who must create signatures to detect each new malware variant. Although the many variants in a malware family have different static signatures, they share characteristic behavioral patterns resulting from their common function and heritage. We describe an automatic classification system that can be trained to accurately identify new variants within known malware families, using observed similarities in behavioral features extracted from sensors monitoring live computers hosts. We evaluate the accuracy of the classifier on a live testbed under a heavy computational load. The described classification system is intended to perform classification online, using the computed classes of newly detected malware variants to guide the automatic mitigation of infected hosts.},
+keywords={computer viruses;pattern classification;antivirus software;automatic malware classification system;characteristic behavioral patterns;classifier;infected host automatic mitigation;malware variant detection;obfuscation techniques;online behavioral malware classification system;static signatures;autonomic computing;classification;decision trees;detection;machine learning;malware;mitigation},
+doi={10.1109/SASO.2013.8},
+ISSN={1949-3673},}
+}
+
+@inproceedings {Canzanese_ICAC_2011,
+  Title                    = {Inoculation against malware infection using kernel-level software sensors},
+  Author                   = {Canzanese, Raymond and Kam, Moshe and Mancoridis, Spiros},
+  Booktitle                = {International conference on autonomic computing},
+  Year                     = {2011},
+  Address                  = {New York, NY, USA},
+  Publisher                = {ACM},
+  Series                   = {ICAC},
+  Acmid                    = {1998600},
+  Doi                      = {http://doi.acm.org/10.1145/1998582.1998600},
+  ISBN                     = {978-1-4503-0607-2},
+  Keywords                 = {fault tolerance, malware detection, system monitoring},
+  Numpages                 = {10},
+  Url                      = {http://doi.acm.org/10.1145/1998582.1998600}
+}
+
+@article {Canzanese_re_2005,
+  title     = {A survey of reverse engineering tools for the 32-bit Microsoft Windows environment},
+  author    = {Canzanese, Raymond and Oyer, Matthew and Kam, Moshe and Mancoridis, Spiros},
+  INSTITUTION = {Drexel University},
+  year      = {2005},
+  journal = {Unpublished},
+}
+
+@phdthesis {Canzanese_PhD_2015,
+ author = {Canzanese, Raymond},
+ title = {Detection and Classification of Malicious Processes Using System Call Analysis},
+ year = {2015},
+ month = {5},
+ day = {7},
+abstract = { Despite efforts to mitigate the malware threat, the proliferation of malware continues, with record-setting numbers of malware samples being discovered each quarter. Malware are any intentionally malicious software, including software designed for extortion, sabotage, and espionage. Traditional malware defenses are primarily signature-based and heuristic-based, and include firewalls, intrusion detection systems, and antivirus software. Such defenses are reactive, performing well against known threats but struggling against new malware variants and zero-day threats. Together, the reactive nature of traditional defenses and the continuing spread of malware motivate the development of new techniques to detect such threats. One promising set of techniques use features extracted from system call traces to infer malicious behaviors.
+
+This thesis studies the problem of detecting and classifying malicious processes using system call trace analysis. The goal of this study is to identify techniques that are 'lightweight' enough and exhibit a low enough false positive rate to be deployed in production environments. The major contributions of this work are (1) a study of the effects of feature extraction strategy on malware detection performance; (2) the comparison of signature-based and statistical detection techniques for malware detection and classification; (3) the application of sequential detection techniques for malware detection, with the goal of identifying malicious behaviors as quickly as possible; (4) a study of malware detection performance at very low false positive rates; and (5) an extensive empirical evaluation, wherein the performance of the malware detection and classification systems are evaluated against data collected from production hosts and from the execution of recently discovered malware samples. The outcome of this study is a proof-of-concept system that detects the execution of malicious processes in production environments and classifies them according to their similarity to known malware.
+}
+}

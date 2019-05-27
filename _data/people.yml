@@ -1,3 +1,37 @@
+mkam:
+  display_name: "Moshe Kam"
+  role: director
+  image: /img/people/Moshe.jpg
+pramod:
+  display_name: Pramod Abichandani
+  role: faculty
+  image: /img/people/pramod.jpg
+  webpage: http://www.pramod.co/
+leon:
+  display_name: Leon Hrebien
+  role: faculty
+  image: /img/people/Leonid-Hrebien0d2e.jpg
+rich:
+  display_name: Richard Primerano
+  role: faculty
+  image: /img/people/rich_081d3.jpg
+kapil:
+  display_name: Kapil Dandekar
+  role: affiliated
+  image: /img/people/Kapil-Dandekar8371.jpg
+spiros:
+  display_name: Spiros Mancoridis
+  role: affiliated
+  image: /img/people/mancoridis2d8f.jpg
+  webpage: https://www.cs.drexel.edu/~spiros/
+walsh:
+  display_name: John Walsh
+  role: affiliated
+  image: /img/people/John-Walsh85ce.jpg
+weber:
+  display_name: Steven Weber
+  role: affiliated
+  image: /img/people/Steven-Weber5d1f.jpg
 rcanzanese:
     display_name: "Ray Canzanese"
     bio: 2015
@@ -5,184 +39,328 @@ rcanzanese:
     github: rcanzanese
     image: /img/people/rcanzanese.jpg
     role: phd
-sacharya:
-    display_name: "Sandeep Acharya"
-    bio: 2014
-    role: phd
-
-#	Sayandeep Acharya, 2014 	Ram Achuthanandam, 2005 	Gustave Anderson, 2011 	Li Bai, 2001 	Bradford Boyle, 2015 	Donald Bucci, 2015 	Raymond Canzanese, 2015 	Wei Chang, 1992 	Wendi Chen, 2010 	Robert Conn, 1995 	David Dorsey, 2014 	Gabriel Fielding, 1999 	Lex Fridman, 2014 	Amit Goffer, 1990 	Scott Haney, 2011 	Brian Hipszer, 2008 	Marco Janko 	Thierry Jurand, 1991 	Andres Lebaudy, 1996 	Erwei Lin, 2005 	Lit-Hsin Loo, 2004 	Ryan Measel, 2015 	Ari Naim, 1992 	Joseph Prosser, 1996 	Arjun Rajasekar 	George Sworo, 2015 	Leonardo Urbano, 2014 	Mianyu Wang, 2008 	Jeffrey Wildman, 2015 	Feiyu Xiong, 2015 	Yingqin Yuan, 2004 	Qiang Zhu, 1993 	Xiaoxun Zhu, 1997
-#M.S.
-
-
-#	Portia (Morse) O'Callaghan, 1999 	Agnes Arreola, 1993 	William Bassill, 1997 	Chris Berry, 2014 	Jeffrey Block, 1991 	Gary Cane, 1995 	Fieldi Chan, 1997 	Krishna Chintalapudi, 1999 	Valentin Christea, 1996 	Amit Cohen, 1994 	Errol D'Souza, 1991 	Anup Dandekar, 2008 	Nishant Dhawan, 2006 	Olga Donskoy, 1994 	Javier Elenes, 1996 	Christopher Gaughan, 2004 	Camillo Gentile, 1996 	Sankar Ghosh, 1998 	Cole Gindhart, 2015 	Andrzej Gorski, 2004 	Kishore Gummadidala, 1999 	Aron Harf, 2005 	Chip Heyser, 2000 	Harish Kasiviswanathan, 2003 	Lee Kim, 1987 	Ronald Kralik, 2000 	Christopher Lester, 2012 	Chhay Lim, 1988 	Fong Luei, 2000 	Patrick Marron, 2014 	Gregory Martis, 1991 	Saverio Mercurio, 1992 	Vaishali Parikh, 2014 	Dhruv Ramesh, 2003 	Brian Reardon, 2000 	Kenneth Ridler, 1995 	Ze'ev Rivlin, 1993 	David Tack, 2000 	Dileep Thazhmon, 2005 	Sudeep Thazhmon, 2002 	Joseph Westein, 1994 	Jeffrey Wilcox, 1988 	Edward Woertz, 2005 	Lon Wong, 1989 	Yifei Xu, 2015 	Daniel Zalkind, 2014
-
-
-
-
-
-
-
-
-
-
-
-prof-a:
-    display_name: "Prof A"
-    role: faculty
-
-prof-b:
-    display_name: "Prof B"
-    role: faculty
-
-prof-c:
-    display_name: "Prof C"
-    role: faculty
-
-profx:
-    display_name: "Professor X"
-    webpage: "http://en.wikipedia.org/wiki/Professor_X"
-    github: profx
-    role: faculty
-    image: /img/people/prof-x.png
-    bio: Professor
-
-scott:
-    display_name: "Scott Summers"
-    webpage: "http://en.wikipedia.org/wiki/Cyclops_(comics)"
-    role: staff
-    image: /img/people/scott.png
-    bio: aka Cyclops
-
-wolverine:
-    display_name: "Wolverine"
-    webpage: "http://en.wikipedia.org/wiki/Wolverine_%28comics%29"
-    github: wolverine
-    role: postdoc
-
-storm:
-    display_name: "Storm"
-    webpage: "http://en.wikipedia.org/wiki/Storm_%28Marvel_Comics%29"
-    role: grad
-    image: /img/people/storm.png
-
-grad-a:
-    display_name: "Grad A"
-    role: grad
-
-grad-b:
-    display_name: "Graduate Student B With Long Name"
-    role: grad
-
-grad-c:
-    display_name: "Grad C"
-    role: grad
-
-grad-d:
-    display_name: "Grad D"
-    role: grad
-
-grad-e:
-    display_name: "Grad E"
-    role: grad
-
-grad-f:
-    display_name: "Grad F"
-    role: grad
-
-grad-g:
-    display_name: "Grad G"
-    role: grad
-
-grad-h:
-    display_name: "Grad H"
-    role: grad
-
-grad-i:
-    display_name: "Grad I"
-    role: grad
-
-alum-a:
-    display_name: "Alum A"
-    role: alum
-    bio: "Ph.D., 2013. Now at Microsoft Research."
-
-alum-b:
-    display_name: "Alum B With Way Longer Name"
-    role: alum
-
-alum-c:
-    display_name: "Alum C"
-    role: alum
-    webpage: "https://www.google.com"
-
-alum-d:
-    display_name: "Alum D"
-    role: alum
-
-alum-e:
-    display_name: "Alum E"
-    role: alum
-
-alum-f:
-    display_name: "Alum F"
-    role: alum
-
-alum-g:
-    display_name: "Alum G"
-    role: alum
-
-alum-h:
-    display_name: "Alum H"
-    role: alum
-
-alum-i:
-    display_name: "Alum I"
-    role: alum
-
-collab-a:
-    display_name: "Collaborator A"
-    role: collab
-
-collab-b:
-    display_name: "Collaborator B With Long Name"
-    role: collab
-
-collab-c:
-    display_name: "Collaborator C"
-    role: collab
-
-collab-d:
-    display_name: "Collaborator D"
-    role: collab
-
-collab-e:
-    display_name: "Collaborator E"
-    role: collab
-
-ugrad-a:
-    display_name: "Ugrad A"
-    role: ugrad
-
-ugrad-b:
-    display_name: "Ugrad Student B With Long Name"
-    role: ugrad
-
-ugrad-c:
-    display_name: "Ugrad C"
-    role: ugrad
-
-ugrad-d:
-    display_name: "Ugrad D"
-    role: ugrad
-
-ugrad-e:
-    display_name: "Ugrad E"
-    role: ugrad
-
-ugrad-alum-a:
-    display_name: "Past Ugrad A"
-    role: ugrad-alum
-
-ugrad-alum-b:
-    display_name: "Past Ugrad Student B With Long Name"
-    role: ugrad-alum
+AArreola:
+  bio: ' 1993'
+  display_name: Agnes Arreola
+  role: masters
+ACohen:
+  bio: ' 1994'
+  display_name: Amit Cohen
+  role: masters
+  image: /img/people/Amit724b.jpg
+ADandekar:
+  bio: ' 2008'
+  display_name: Anup Dandekar
+  role: masters
+AGorski:
+  bio: ' 2004'
+  display_name: Andrzej Gorski
+  role: masters
+AHarf:
+  bio: ' 2005'
+  display_name: Aron Harf
+  role: masters
+BReardon:
+  bio: ' 2000'
+  display_name: Brian Reardon
+  role: masters
+CBerry:
+  bio: ' 2014'
+  display_name: Chris Berry
+  role: masters
+CGaughan:
+  bio: ' 2004'
+  display_name: Christopher Gaughan
+  role: masters
+CGentile:
+  bio: ' 1996'
+  display_name: Camillo Gentile
+  role: masters
+CGindhart:
+  bio: ' 2015'
+  display_name: Cole Gindhart
+  role: masters
+CHeyser:
+  bio: ' 2000'
+  display_name: Chip Heyser
+  role: masters
+CLester:
+  bio: ' 2012'
+  display_name: Christopher Lester
+  role: masters
+  image: /img/people/chris.png
+CLim:
+  bio: ' 1988'
+  display_name: Chhay Lim
+  role: masters
+DRamesh:
+  bio: ' 2003'
+  display_name: Dhruv Ramesh
+  role: masters
+DTack:
+  bio: ' 2000'
+  display_name: David Tack
+  role: masters
+DThazhmon:
+  bio: ' 2005'
+  display_name: Dileep Thazhmon
+  role: masters
+DZalkind:
+  bio: ' 2014'
+  display_name: Daniel Zalkind
+  role: masters
+ED'Souza:
+  bio: ' 1991'
+  display_name: Errol D'Souza
+  role: masters
+EWoertz:
+  bio: ' 2005'
+  display_name: Edward Woertz
+  role: masters
+FChan:
+  bio: ' 1997'
+  display_name: Fieldi Chan
+  role: masters
+FLuei:
+  bio: ' 2000'
+  display_name: Fong Luei
+  role: masters
+GCane:
+  bio: ' 1995'
+  display_name: Gary Cane
+  role: masters
+GMartis:
+  bio: ' 1991'
+  display_name: Gregory Martis
+  role: masters
+HKasiviswanathan:
+  bio: ' 2003'
+  display_name: Harish Kasiviswanathan
+  role: masters
+JBlock:
+  bio: ' 1991'
+  display_name: Jeffrey Block
+  role: masters
+JElenes:
+  bio: ' 1996'
+  display_name: Javier Elenes
+  role: masters
+JWestein:
+  bio: ' 1994'
+  display_name: Joseph Westein
+  role: masters
+JWilcox:
+  bio: ' 1988'
+  display_name: Jeffrey Wilcox
+  role: masters
+KChintalapudi:
+  bio: ' 1999'
+  display_name: Krishna Chintalapudi
+  role: masters
+KGummadidala:
+  bio: ' 1999'
+  display_name: Kishore Gummadidala
+  role: masters
+KRidler:
+  bio: ' 1995'
+  display_name: Kenneth Ridler
+  role: masters
+LKim:
+  bio: ' 1987'
+  display_name: Lee Kim
+  role: masters
+LWong:
+  bio: ' 1989'
+  display_name: Lon Wong
+  role: masters
+NDhawan:
+  bio: ' 2006'
+  display_name: Nishant Dhawan
+  role: masters
+ODonskoy:
+  bio: ' 1994'
+  display_name: Olga Donskoy
+  role: masters
+PMarron:
+  bio: ' 2014'
+  display_name: Patrick Marron
+  role: masters
+PO'Callaghan:
+  bio: ' 1999'
+  display_name: Portia (Morse) O'Callaghan
+  role: masters
+RKralik:
+  bio: ' 2000'
+  display_name: Ronald Kralik
+  role: masters
+SGhosh:
+  bio: ' 1998'
+  display_name: Sankar Ghosh
+  role: masters
+SMercurio:
+  bio: ' 1992'
+  display_name: Saverio Mercurio
+  role: masters
+SThazhmon:
+  bio: ' 2002'
+  display_name: Sudeep Thazhmon
+  role: masters
+VChristea:
+  bio: ' 1996'
+  display_name: Valentin Christea
+  role: masters
+VParikh:
+  bio: ' 2014'
+  display_name: Vaishali Parikh
+  role: masters
+  image: /img/people/vaishali.jpg
+WBassill:
+  bio: ' 1997'
+  display_name: William Bassill
+  role: masters
+YXu:
+  bio: ' 2015'
+  display_name: Yifei Xu
+  role: masters
+ZRivlin:
+  bio: ' 1993'
+  display_name: Ze'ev Rivlin
+  role: masters
+AGoffer:
+  bio: ' 1990'
+  display_name: Amit Goffer
+  role: phd
+ALebaudy:
+  bio: ' 1996'
+  display_name: Andres Lebaudy
+  role: phd
+ANaim:
+  bio: ' 1992'
+  display_name: Ari Naim
+  role: phd
+ARajasekar:
+  bio: ''
+  display_name: Arjun Rajasekar
+  role: phd
+BBoyle:
+  bio: ' 2015'
+  display_name: Bradford Boyle
+  role: phd
+  image: /img/people/bradford.jpg
+BHipszer:
+  bio: ' 2008'
+  display_name: Brian Hipszer
+  role: phd
+DBucci:
+  bio: ' 2015'
+  display_name: Donald Bucci
+  role: phd
+  image: /img/people/dj.jpg
+DDorsey:
+  bio: ' 2014'
+  display_name: David Dorsey
+  role: phd
+ELin:
+  bio: ' 2005'
+  display_name: Erwei Lin
+  role: phd
+FXiong:
+  bio: ' 2015'
+  display_name: Feiyu Xiong
+  role: phd
+  image: /img/people/feiyu.jpg
+GAnderson:
+  bio: ' 2011'
+  display_name: Gustave Anderson
+  role: phd
+GFielding:
+  bio: ' 1999'
+  display_name: Gabriel Fielding
+  role: phd
+GSworo:
+  bio: ' 2015'
+  display_name: George Sworo
+  role: phd
+  image: /img/people/george.jpg
+JProsser:
+  bio: ' 1996'
+  display_name: Joseph Prosser
+  role: phd
+JWildman:
+  bio: ' 2015'
+  display_name: Jeffrey Wildman
+  role: phd
+  image: /img/people/wildman.jpg
+LBai:
+  bio: ' 2001'
+  display_name: Li Bai
+  role: phd
+LFridman:
+  bio: ' 2014'
+  display_name: Lex Fridman
+  role: phd
+  image: /img/people/LEX__LIK8507_HERO2204.jpg
+LLoo:
+  bio: ' 2004'
+  display_name: Lit-Hsin Loo
+  role: phd
+LUrbano:
+  bio: ' 2014'
+  display_name: Leonardo Urbano
+  role: phd
+  image: /img/people/leonardo.jpg
+MJanko:
+  bio: ''
+  display_name: Marco Janko
+  role: phd
+  image: /img/people/janko.jpg
+MWang:
+  bio: ' 2008'
+  display_name: Mianyu Wang
+  role: phd
+QZhu:
+  bio: ' 1993'
+  display_name: Qiang Zhu
+  role: phd
+RAchuthanandam:
+  bio: ' 2005'
+  display_name: Ram Achuthanandam
+  role: phd
+RConn:
+  bio: ' 1995'
+  display_name: Robert Conn
+  role: phd
+RMeasel:
+  bio: ' 2015'
+  display_name: Ryan Measel
+  role: phd
+  image: /img/people/ryan19aa.jpg
+SAcharya:
+  bio: ' 2014'
+  display_name: Sayandeep Acharya
+  role: phd
+  image: /img/people/acharya.jpg
+SHaney:
+  bio: ' 2011'
+  display_name: Scott Haney
+  role: phd
+TJurand:
+  bio: ' 1991'
+  display_name: Thierry Jurand
+  role: phd
+WChang:
+  bio: ' 1992'
+  display_name: Wei Chang
+  role: phd
+WChen:
+  bio: ' 2010'
+  display_name: Wendi Chen
+  role: phd
+XZhu:
+  bio: ' 1997'
+  display_name: Xiaoxun Zhu
+  role: phd
+YYuan:
+  bio: ' 2004'
+  display_name: Yingqin Yuan
+  role: phd

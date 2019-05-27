@@ -13,22 +13,14 @@ permalink: /blog/:year/:month/:day/:title.html
 roles:
   - key: faculty
     name: Faculty
-  - key: staff
-    name: Staff
-  - key: postdoc
-    name: Researchers
-  - key: grad
-    name: Graduate Students
-  - key: ugrad
-    name: Undergraduate Students
-  - key: ugrad-alum
-    name: Past Undergraduate Students
-  - key: collab
-    name: Collaborators
-  - key: alum
-    name: Alumni
   - key: phd
-    name: Ph.D.
+    name: Ph.D. Graduates
+  - key: masters
+    name: Masters Graduates
+  - key: director
+    name: Director
+  - key: affiliated
+    name: Affiliated Faculty
 
 # Number of news stories on the front page.
 front_page_news: 8
@@ -45,9 +37,22 @@ collections:
 navigation:
   - title: Home
     link: /
-  - title: People
-    link: /#people
-  - title: Code
-    link: /code.html
   - title: Publications
-    link: /publications.html
+    link: /publications
+
+# BIBTEX SETTINGS
+scholar:
+  style:  _bibliography/ieee_custom
+  locale: en
+  sort_by: author
+  order: ascending
+  source: ./_bibliography
+  bibliography: "*.bib"
+  bibliography_template: bib
+  replace_strings: true
+  join_strings:    true
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   "[bib]"
+  query: "@*"
+  repository: ./publications/
