@@ -23,9 +23,9 @@ serve: _includes/pubs.html
 clean:
 	$(RM) -r _site _includes/pubs.html
 
-DEPLOY_HOST ?= yourwebpage.com
-DEPLOY_PATH ?= www/
-RSYNC := rsync --compress --recursive --checksum --itemize-changes --delete -e ssh
+DEPLOY_BUCKET ?= datafusionlab.org
+DEPLOY_PATH ?= /
+RSYNC := aws s3 sync
 
 deploy: clean build
-	$(RSYNC) _site/ $(DEPLOY_HOST):$(DEPLOY_PATH)
+	$(RSYNC) _site/ s3://$(DEPLOY_BUCKET)$(DEPLOY_PATH)
