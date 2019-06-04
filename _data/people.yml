@@ -68,6 +68,7 @@ CBerry:
   bio: ' 2014'
   display_name: Chris Berry
   role: masters
+  image: /img/people/chris.png
 CGaughan:
   bio: ' 2004'
   display_name: Christopher Gaughan
@@ -88,7 +89,6 @@ CLester:
   bio: ' 2012'
   display_name: Christopher Lester
   role: masters
-  image: /img/people/chris.png
 CLim:
   bio: ' 1988'
   display_name: Chhay Lim
