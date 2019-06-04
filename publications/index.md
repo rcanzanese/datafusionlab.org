@@ -20,4 +20,3 @@ permalink: /publications/
 
 {% bibliography --query @inproceedings %}
 
-I'm typing more txt here to see if it is working.
