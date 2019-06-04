@@ -38,7 +38,9 @@ navigation:
   - title: Home
     link: /
   - title: Publications
-    link: /publications
+    link: /publications/index.html
+  - title: Admin
+    link: /administrivia.html
 
 # BIBTEX SETTINGS
 scholar:
